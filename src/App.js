@@ -41,6 +41,25 @@ class App extends Component {
           temp: Number(this.state.storedNumber) + Number(this.state.temp),
           storedNumber: ""
         });
+        return;
+      case "-":
+        this.setState({
+          temp: Number(this.state.storedNumber) - Number(this.state.temp),
+          storedNumber: ""
+        });
+        return;
+      case "x":
+        this.setState({
+          temp: Number(this.state.storedNumber) * Number(this.state.temp),
+          storedNumber: ""
+        });
+        return;
+      case "/":
+        this.setState({
+          temp: Number(this.state.storedNumber) / Number(this.state.temp),
+          storedNumber: ""
+        });
+        return;
     }
   };
 
