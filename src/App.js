@@ -73,56 +73,56 @@ class App extends Component {
           </div>
           <div className="buttons">
             <div className="number-buttons">
-              <div onClick={this.clickClear} className="big-button clear-button">
+              <button onClick={this.clickClear} className="big-button clear-button">
                 Clear
-              </div>
-              <div onClick={() => this.inputNumber("7")} className="button">
+              </button>
+              <button onClick={() => this.inputNumber("7")} className="button">
                 7
-              </div>
-              <div onClick={() => this.inputNumber("8")} className="button">
+              </button>
+              <button onClick={() => this.inputNumber("8")} className="button">
                 8
-              </div>
-              <div onClick={() => this.inputNumber("9")} className="button">
+              </button>
+              <button onClick={() => this.inputNumber("9")} className="button">
                 9
-              </div>
-              <div onClick={() => this.inputNumber("4")} className="button">
+              </button>
+              <button onClick={() => this.inputNumber("4")} className="button">
                 4
-              </div>
-              <div onClick={() => this.inputNumber("5")} className="button">
+              </button>
+              <button onClick={() => this.inputNumber("5")} className="button">
                 5
-              </div>
-              <div onClick={() => this.inputNumber("6")} className="button">
+              </button>
+              <button onClick={() => this.inputNumber("6")} className="button">
                 6
-              </div>
-              <div onClick={() => this.inputNumber("1")} className="button">
+              </button>
+              <button onClick={() => this.inputNumber("1")} className="button">
                 1
-              </div>
-              <div onClick={() => this.inputNumber("2")} className="button">
+              </button>
+              <button onClick={() => this.inputNumber("2")} className="button">
                 2
-              </div>
-              <div onClick={() => this.inputNumber("3")} className="button">
+              </button>
+              <button onClick={() => this.inputNumber("3")} className="button">
                 3
-              </div>
-              <div onClick={() => this.inputNumber("0")} className="big-button">
+              </button>
+              <button onClick={() => this.inputNumber("0")} className="big-button">
                 0
-              </div>
+              </button>
             </div>
             <div className="action-buttons">
-              <div onClick={() => this.clickAction("/")} className=" button action-button">
+              <button onClick={() => this.clickAction("/")} className=" button action-button">
                 ÷
-              </div>
-              <div onClick={() => this.clickAction("x")} className=" button action-button">
+              </button>
+              <button onClick={() => this.clickAction("x")} className=" button action-button">
                 ×
-              </div>
-              <div onClick={() => this.clickAction("-")} className=" button action-button">
+              </button>
+              <button onClick={() => this.clickAction("-")} className=" button action-button">
                 −
-              </div>
-              <div onClick={() => this.clickAction("+")} className=" button action-button">
+              </button>
+              <button onClick={() => this.clickAction("+")} className=" button action-button">
                 +
-              </div>
-              <div onClick={this.clickEqual} className=" button action-button equal-button">
+              </button>
+              <button onClick={this.clickEqual} className=" button action-button equal-button">
                 =
-              </div>
+              </button>
             </div>
           </div>
         </div>
