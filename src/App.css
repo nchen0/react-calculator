@@ -1,7 +1,7 @@
 .App {
   text-align: center;
   box-sizing: border-box;
-  font-size: 30px;
+  font-size: 40px;
 }
 
 .App-logo {
@@ -38,10 +38,20 @@
   background-color: black;
   color: white;
   width: 400px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding-right: 20px;
+
+  font-size: 65px;
 }
 
 .buttons {
   display: flex;
+}
+
+.buttons:hover {
+  cursor: pointer;
 }
 
 .number-buttons {
@@ -53,14 +63,45 @@
   height: 100px;
   width: 300px;
   border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .button {
   height: 100px;
   width: 100px;
   border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.zero {
-  width: 300px;
+.action-buttons {
+  background-color: #b30000;
+  color: white;
+  font-size: 50px;
+}
+
+.equal-button {
+  background-color: #ff8000;
+}
+
+/* Hover & Action */
+.button:hover,
+.big-button:hover {
+  background-color: rgb(224, 224, 224);
+}
+
+.button:active,
+.big-button:active {
+  font-weight: bold;
+}
+
+.action-button:hover {
+  background-color: #920202;
+}
+
+.equal-button:hover {
+  background-color: #dd7206;
 }

@@ -73,7 +73,7 @@ class App extends Component {
           </div>
           <div className="buttons">
             <div className="number-buttons">
-              <div onClick={this.clickClear} className="big-button">
+              <div onClick={this.clickClear} className="big-button clear-button">
                 Clear
               </div>
               <div onClick={() => this.inputNumber("7")} className="button">
@@ -103,24 +103,24 @@ class App extends Component {
               <div onClick={() => this.inputNumber("3")} className="button">
                 3
               </div>
-              <div onClick={() => this.inputNumber("0")} className="button zero">
+              <div onClick={() => this.inputNumber("0")} className="big-button">
                 0
               </div>
             </div>
             <div className="action-buttons">
-              <div onClick={() => this.clickAction("/")} className="button">
+              <div onClick={() => this.clickAction("/")} className=" button action-button">
                 ÷
               </div>
-              <div onClick={() => this.clickAction("x")} className="button">
+              <div onClick={() => this.clickAction("x")} className=" button action-button">
                 ×
               </div>
-              <div onClick={() => this.clickAction("-")} className="button">
-                -
+              <div onClick={() => this.clickAction("-")} className=" button action-button">
+                −
               </div>
-              <div onClick={() => this.clickAction("+")} className="button">
+              <div onClick={() => this.clickAction("+")} className=" button action-button">
                 +
               </div>
-              <div onClick={this.clickEqual} className="button">
+              <div onClick={this.clickEqual} className=" button action-button equal-button">
                 =
               </div>
             </div>
