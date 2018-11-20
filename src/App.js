@@ -56,7 +56,7 @@ class App extends Component {
         return;
       case "/":
         this.setState({
-          temp: Number(this.state.storedNumber) / Number(this.state.temp),
+          temp: (Number(this.state.storedNumber) / Number(this.state.temp)).toFixed(5),
           storedNumber: ""
         });
         return;
