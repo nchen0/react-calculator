@@ -104,3 +104,7 @@
 .equal-button:hover {
   background-color: #dd7206;
 }
+
+.action-button:focus {
+  outline-color: grey;
+}
